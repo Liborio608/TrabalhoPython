@@ -6,5 +6,5 @@ if kg <= 50:
 else:
     limite = kg - 50
     multa = limite * 4
-    print("Você ultrapassou o limite de: %.2f" %limite)
+    print("Você ultrapassou o limite de: %.2f" "kg" %limite)
     print("Sua multa e no valor de: %.2f" %multa)
