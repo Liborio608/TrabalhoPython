@@ -1,4 +1,4 @@
-kg = float(input("Quantos Kg você Pescou: " "Kg"))
+kg = float(input("Quantos Kg você Pescou: " ))
 limite = 0
 multa = 0
 if kg <= 50:
