@@ -1,4 +1,4 @@
-kg = float(input("Quantos Kg você Pescou: "))
+kg = float(input("Quantos Kg você Pescou: " "Kg"))
 limite = 0
 multa = 0
 if kg <= 50:
@@ -6,5 +6,5 @@ if kg <= 50:
 else:
     limite = kg - 50
     multa = limite * 4
-    print("Você ultrapassou o limite de: %.2f" "kg" %limite)
-    print("Sua multa e no valor de: %.2f" %multa)
+    print("Você ultrapassou o limite de: %.2f" "Kg" %limite)
+    print("Sua multa e no valor de: %.2f" "R$" %multa)
