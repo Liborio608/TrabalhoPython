@@ -4,7 +4,7 @@ for i in range(1, 6):
     print('Pessoa %d' %i)
     idade = int(input('Sua Idade: '))
     altura = float(input('Sua Altura: '))
-    i.append(idade)
+    id.append(idade)
     alt.append(altura)
 
 print('Ordem inversa')
